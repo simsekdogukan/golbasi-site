@@ -1,0 +1,625 @@
+[
+  {
+    "categoryName": "Kahvaltılıklar",
+    "items": [
+      {
+        "name": "Omlet",
+        "price": 100,
+        "unit": "Tam",
+        "image": null
+      },
+      {
+        "name": "Menemen",
+        "price": 170,
+        "unit": "Tam",
+        "image": null
+      },
+      {
+        "name": "Kahvaltı Tabağı",
+        "price": 300,
+        "unit": "Tam",
+        "image": null
+      },
+      {
+        "name": "Sucuklu Omlet",
+        "price": 150,
+        "unit": "Tam",
+        "image": null
+      },
+      {
+        "name": "Mıhlama",
+        "price": 300,
+        "unit": "Tam",
+        "image": null
+      },
+      {
+        "name": "Patates Cips",
+        "price": 150,
+        "unit": "Tam",
+        "image": null
+      },
+      {
+        "name": "Sigara Böreği",
+        "price": 100,
+        "unit": "Tam",
+        "image": null
+      },
+      {
+        "name": "Büyük Demlik Çay",
+        "price": 300,
+        "unit": "Tam",
+        "image": null
+      },
+      {
+        "name": "Serpme Kahvaltı",
+        "price": 450,
+        "unit": "Tam",
+        "image": null
+      },
+      {
+        "name": "Tost",
+        "price": 150,
+        "unit": "Tam",
+        "image": null
+      }
+    ]
+  },
+  {
+    "categoryName": "Çorbalar",
+    "items": [
+      {
+        "name": "Mercimek",
+        "price": 150,
+        "unit": "Tam",
+        "image": null
+      },
+      {
+        "name": "Ezogelin",
+        "price": 150,
+        "unit": "Tam",
+        "image": null
+      },
+      {
+        "name": "Haşlama Suyu",
+        "price": 130,
+        "unit": "Tam",
+        "image": null
+      },
+      {
+        "name": "Kelle Paça",
+        "price": 250,
+        "unit": "Tam",
+        "image": null
+      },
+      {
+        "name": "Mercimek Az",
+        "price": 70,
+        "unit": "Tam",
+        "image": null
+      },
+      {
+        "name": "Ezogelin Az",
+        "price": 70,
+        "unit": "Tam",
+        "image": null
+      },
+      {
+        "name": "Şehriye",
+        "price": 100,
+        "unit": "Tam",
+        "image": null
+      }
+    ]
+  },
+  {
+    "categoryName": "Danadan",
+    "items": [
+      {
+        "name": "Dana Antrikot",
+        "price": 2600,
+        "unit": "Kg",
+        "image": null
+      },
+      {
+        "name": "Dana Antrikot",
+        "price": 750,
+        "unit": "Tam",
+        "image": null
+      },
+      {
+        "name": "Köfte Porsiyon",
+        "price": 450,
+        "unit": "Tam",
+        "image": null
+      },
+      {
+        "name": "Dana Sucuk Porsiyon",
+        "price": 400,
+        "unit": "Tam",
+        "image": null
+      },
+      {
+        "name": "Dana Porsiyon",
+        "price": 700,
+        "unit": "Tam",
+        "image": null
+      },
+      {
+        "name": "Ciğer",
+        "price": 350,
+        "unit": "Tam",
+        "image": null
+      },
+      {
+        "name": "Dana Şiş",
+        "price": 450,
+        "unit": "Tam",
+        "image": null
+      },
+      {
+        "name": "Ekmek Arası Köfte",
+        "price": 250,
+        "unit": "Tam",
+        "image": null
+      },
+      {
+        "name": "Dana Bonfile",
+        "price": 2600,
+        "unit": "Kg",
+        "image": null
+      },
+      {
+        "name": "Dana Bonfile",
+        "price": 750,
+        "unit": "Tam",
+        "image": null
+      },
+      {
+        "name": "Dana Sucuk",
+        "price": 1200,
+        "unit": "Kg",
+        "image": null
+      },
+      {
+        "name": "Dana Sucuk",
+        "price": 360,
+        "unit": "Tam",
+        "image": null
+      },
+      {
+        "name": "Köfte",
+        "price": 1750,
+        "unit": "Kg",
+        "image": null
+      },
+      {
+        "name": "Sac Tava",
+        "price": 500,
+        "unit": "Tam",
+        "image": null
+      },
+      {
+        "name": "Karışık Izgara",
+        "price": 2600,
+        "unit": "Kg",
+        "image": null
+      },
+      {
+        "name": "Karışık Izgara",
+        "price": 750,
+        "unit": "Tam",
+        "image": null
+      }
+    ]
+  },
+  {
+    "categoryName": "Salatalar",
+    "items": [
+      {
+        "name": "Çoban Salata",
+        "price": 100,
+        "unit": "Tam",
+        "image": null
+      }
+    ]
+  },
+  {
+    "categoryName": "İçecekler",
+    "items": [
+      {
+        "name": "Türk Kahvesi",
+        "price": 150,
+        "unit": "Tam",
+        "image": null
+      },
+      {
+        "name": "Su",
+        "price": 25,
+        "unit": "Tam",
+        "image": null
+      },
+      {
+        "name": "Nescafe",
+        "price": 100,
+        "unit": "Tam",
+        "image": null
+      },
+      {
+        "name": "Çay",
+        "price": 25,
+        "unit": "Tam",
+        "image": null
+      },
+      {
+        "name": "Gazlı İçecekler",
+        "price": 70,
+        "unit": "Tam",
+        "image": null
+      },
+      {
+        "name": "Fincan Çay",
+        "price": 30,
+        "unit": "Tam",
+        "image": null
+      },
+      {
+        "name": "Churchil",
+        "price": 100,
+        "unit": "Tam",
+        "image": null
+      },
+      {
+        "name": "Ayran",
+        "price": 70,
+        "unit": "Tam",
+        "image": null
+      },
+      {
+        "name": "Soda",
+        "price": 70,
+        "unit": "Tam",
+        "image": null
+      },
+      {
+        "name": "Büyük Demlik Çay",
+        "price": 300,
+        "unit": "Tam",
+        "image": null
+      }
+    ]
+  },
+  {
+    "categoryName": "Sulu Yemek",
+    "items": [
+      {
+        "name": "Fasülyeli Pilav",
+        "price": 250,
+        "unit": "Tam",
+        "image": null
+      },
+      {
+        "name": "Kuru Fasülye Az",
+        "price": 200,
+        "unit": "Tam",
+        "image": null
+      },
+      {
+        "name": "Pilav Az",
+        "price": 70,
+        "unit": "Tam",
+        "image": null
+      },
+      {
+        "name": "Makarna",
+        "price": 70,
+        "unit": "Tam",
+        "image": null
+      },
+      {
+        "name": "Kavurma",
+        "price": 500,
+        "unit": "Tam",
+        "image": null
+      },
+      {
+        "name": "Kavurma Az",
+        "price": 350,
+        "unit": "Tam",
+        "image": null
+      },
+      {
+        "name": "sarma",
+        "price": 350,
+        "unit": "Tam",
+        "image": null
+      },
+      {
+        "name": "Kavurma",
+        "price": 500,
+        "unit": "Tam",
+        "image": null
+      },
+      {
+        "name": "Kuru Fasülye",
+        "price": 300,
+        "unit": "Tam",
+        "image": null
+      },
+      {
+        "name": "Pilav",
+        "price": 150,
+        "unit": "Tam",
+        "image": null
+      },
+      {
+        "name": "Haşlama",
+        "price": 450,
+        "unit": "Tam",
+        "image": null
+      },
+      {
+        "name": "Gölbaşı Spesiyal",
+        "price": 500,
+        "unit": "Tam",
+        "image": null
+      },
+      {
+        "name": "Bugünün Yemeği",
+        "price": 300,
+        "unit": "Tam",
+        "image": null
+      }
+    ]
+  },
+  {
+    "categoryName": "Kuzudan",
+    "items": [
+      {
+        "name": "Kuzu Porsiyon ",
+        "price": 900,
+        "unit": "Tam",
+        "image": null
+      },
+      {
+        "name": "Adana Kebap",
+        "price": 400,
+        "unit": "Tam",
+        "image": null
+      },
+      {
+        "name": "Kuzu Pirzola",
+        "price": 2600,
+        "unit": "Kg",
+        "image": null
+      },
+      {
+        "name": "Kuzu Lokum",
+        "price": 2000,
+        "unit": "Kg",
+        "image": null
+      },
+      {
+        "name": "Kuzu Lokum",
+        "price": 720,
+        "unit": "Tam",
+        "image": null
+      },
+      {
+        "name": "Kuzu Şiş",
+        "price": 500,
+        "unit": "Tam",
+        "image": null
+      },
+      {
+        "name": "Karışık Izgara",
+        "price": 2600,
+        "unit": "Kg",
+        "image": null
+      },
+      {
+        "name": "Karışık Izgara",
+        "price": 750,
+        "unit": "Tam",
+        "image": null
+      }
+    ]
+  },
+  {
+    "categoryName": "Balıklar",
+    "items": [
+      {
+        "name": "Kırmızı Benekli Alabalık",
+        "price": 450,
+        "unit": "Tam",
+        "image": null
+      },
+      {
+        "name": "Kırmızı Benekli Alabalık",
+        "price": 250,
+        "unit": "Yarım",
+        "image": null
+      }
+    ]
+  },
+  {
+    "categoryName": "Tavuklar",
+    "items": [
+      {
+        "name": "Tavuk Kanat",
+        "price": 450,
+        "unit": "Tam",
+        "image": null
+      },
+      {
+        "name": "Tavuk Izgara",
+        "price": 400,
+        "unit": "Tam",
+        "image": null
+      },
+      {
+        "name": "Tavuk Şiş",
+        "price": 400,
+        "unit": "Tam",
+        "image": null
+      }
+    ]
+  },
+  {
+    "categoryName": "Tatlılar",
+    "items": [
+      {
+        "name": "Baklava",
+        "price": 200,
+        "unit": "Tam",
+        "image": null
+      },
+      {
+        "name": "Sütlaç",
+        "price": 200,
+        "unit": "Tam",
+        "image": null
+      },
+      {
+        "name": "Kadayıf",
+        "price": 200,
+        "unit": "Tam",
+        "image": null
+      },
+      {
+        "name": "Magnolia",
+        "price": 150,
+        "unit": "Tam",
+        "image": null
+      },
+      {
+        "name": "Soğuk Baklava",
+        "price": 170,
+        "unit": "Tam",
+        "image": null
+      }
+    ]
+  },
+  {
+    "categoryName": "Mezeler",
+    "items": [
+      {
+        "name": "Yoğurt",
+        "price": 50,
+        "unit": "Tam",
+        "image": null
+      },
+      {
+        "name": "Roka",
+        "price": 50,
+        "unit": "Tam",
+        "image": null
+      },
+      {
+        "name": "Cacık",
+        "price": 100,
+        "unit": "Tam",
+        "image": null
+      },
+      {
+        "name": "Peynir",
+        "price": 100,
+        "unit": "Tam",
+        "image": null
+      },
+      {
+        "name": "Karpuz",
+        "price": 150,
+        "unit": "Tam",
+        "image": null
+      },
+      {
+        "name": "Ezme",
+        "price": 50,
+        "unit": "Tam",
+        "image": null
+      },
+      {
+        "name": "Soğan",
+        "price": 50,
+        "unit": "Tam",
+        "image": null
+      },
+      {
+        "name": "Balık Mezesi",
+        "price": 50,
+        "unit": "Tam",
+        "image": null
+      },
+      {
+        "name": "Köz Biber",
+        "price": 50,
+        "unit": "Tam",
+        "image": null
+      },
+      {
+        "name": "Kavun",
+        "price": 150,
+        "unit": "Tam",
+        "image": null
+      },
+      {
+        "name": "Domates Söğüş",
+        "price": 50,
+        "unit": "Tam",
+        "image": null
+      },
+      {
+        "name": "Salata Söğüş",
+        "price": 50,
+        "unit": "Tam",
+        "image": null
+      },
+      {
+        "name": "Biber Turşusu",
+        "price": 50,
+        "unit": "Tam",
+        "image": null
+      },
+      {
+        "name": "Turşu",
+        "price": 50,
+        "unit": "Tam",
+        "image": null
+      },
+      {
+        "name": "Mısır Ekmeği",
+        "price": 50,
+        "unit": "Tam",
+        "image": null
+      }
+    ]
+  },
+  {
+    "categoryName": "Diğer",
+    "items": [
+      {
+        "name": "Servis & Kamelya Ücreti",
+        "price": 0,
+        "unit": "Tam",
+        "image": null
+      },
+      {
+        "name": "Organizasyon",
+        "price": 0,
+        "unit": "Tam",
+        "image": null
+      }
+    ]
+  },
+  {
+    "categoryName": "Ramazan",
+    "items": [
+      {
+        "name": "Ramazan menü",
+        "price": 550,
+        "unit": "Tam",
+        "image": null
+      }
+    ]
+  }
+]

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Gölbaşı Restaurant</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="background-overlay"></div>
+
+    <header class="glass-header">
+        <div class="header-top">
+            <div class="logo-area">
+                <h1 id="site-title">Gölbaşı</h1>
+                <p id="site-subtitle">Lezzetin Adresi</p>
+            </div>
+            <div class="lang-switcher">
+                <button class="lang-btn active" data-lang="tr">TR</button>
+                <button class="lang-btn" data-lang="en">EN</button>
+                <button class="lang-btn" data-lang="ar">AR</button>
+            </div>
+        </div>
+
+        <div class="search-container">
+            <i class="fas fa-search search-icon"></i>
+            <input type="text" id="search-input" placeholder="Ürün ara...">
+        </div>
+
+        <nav class="category-nav">
+            <ul id="category-list">
+                <!-- Categories will be injected here -->
+            </ul>
+        </nav>
+    </header>
+
+    <main id="app">
+        <div id="menu-container" class="menu-grid">
+            <!-- Menu items will be injected here -->
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Gölbaşı Restaurant</p>
+    </footer>
+
+    <script src="translations.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
