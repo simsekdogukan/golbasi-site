@@ -1,10 +1,11 @@
 const translations = {
     tr: {
-        title: "Gölbaşı",
+        title: "Gölbaşı Restaurant",
         subtitle: "Lezzetin Adresi",
         searchPlaceholder: "Ürün ara...",
         allCategories: "Tümü",
         priceUnit: "TL",
+        footerText: "© 2024 Gölbaşı Restaurant | Tasarım: Doğukan Şimşek",
         categories: {
             "Kahvaltılıklar": "Kahvaltılıklar",
             "Çorbalar": "Çorbalar",
@@ -19,14 +20,22 @@ const translations = {
             "Mezeler": "Mezeler",
             "Diğer": "Diğer",
             "Ramazan": "Ramazan Özel"
+        },
+        products: {
+            // Units
+            "Tam": "Porsiyon",
+            "Yarım": "Yarım",
+            "Kg": "Kg",
+            // Items (Self-referencing for consistency logic)
         }
     },
     en: {
-        title: "Golbasi",
+        title: "Golbasi Restaurant",
         subtitle: "Address of Taste",
         searchPlaceholder: "Search items...",
         allCategories: "All",
         priceUnit: "TL",
+        footerText: "© 2024 Golbasi Restaurant | Design: Dogukan Simsek",
         categories: {
             "Kahvaltılıklar": "Breakfast",
             "Çorbalar": "Soups",
@@ -41,14 +50,117 @@ const translations = {
             "Mezeler": "Appetizers",
             "Diğer": "Others",
             "Ramazan": "Ramadan Special"
+        },
+        products: {
+            // Units
+            "Tam": "Portion",
+            "Yarım": "Half",
+            "Kg": "Kg",
+            // Breakfast
+            "Omlet": "Omelet",
+            "Menemen": "Menemen (Scrambled Eggs with Tomatoes)",
+            "Kahvaltı Tabağı": "Breakfast Plate",
+            "Sucuklu Omlet": "Omelet with Sucuk",
+            "Mıhlama": "Mihlama (Cheese Fondue)",
+            "Patates Cips": "French Fries",
+            "Sigara Böreği": "Cheese Rolls",
+            "Büyük Demlik Çay": "Large Pot of Tea",
+            "Serpme Kahvaltı": "Mixed Breakfast",
+            "Tost": "Toast",
+            // Soups
+            "Mercimek": "Lentil Soup",
+            "Ezogelin": "Ezogelin Soup",
+            "Haşlama Suyu": "Broth",
+            "Kelle Paça": "Sheep's Head Soup",
+            "Mercimek Az": "Lentil Soup (Small)",
+            "Ezogelin Az": "Ezogelin Soup (Small)",
+            "Şehriye": "Noodle Soup",
+            // Beef
+            "Dana Antrikot": "Beef Entrecote",
+            "Köfte Porsiyon": "Meatballs Portion",
+            "Dana Sucuk Porsiyon": "Beef Sucuk Portion",
+            "Dana Porsiyon": "Beef Portion",
+            "Ciğer": "Liver",
+            "Dana Şiş": "Beef Skewer",
+            "Ekmek Arası Köfte": "Meatball Sandwich",
+            "Dana Bonfile": "Beef Tenderloin",
+            "Dana Sucuk": "Beef Sucuk",
+            "Köfte": "Meatballs",
+            "Sac Tava": "Meat Sauté",
+            "Karışık Izgara": "Mixed Grill",
+            // Salads
+            "Çoban Salata": "Shepherd's Salad",
+            // Drinks
+            "Türk Kahvesi": "Turkish Coffee",
+            "Su": "Water",
+            "Nescafe": "Nescafe",
+            "Çay": "Tea",
+            "Gazlı İçecekler": "Fizzy Drinks",
+            "Fincan Çay": "Cup of Tea",
+            "Churchil": "Churchill",
+            "Ayran": "Ayran",
+            "Soda": "Mineral Water",
+            // Stews
+            "Fasülyeli Pilav": "Rice with Beans",
+            "Kuru Fasülye Az": "Beans (Small)",
+            "Pilav Az": "Rice (Small)",
+            "Makarna": "Pasta",
+            "Kavurma": "Roasted Meat",
+            "Kavurma Az": "Roasted Meat (Small)",
+            "sarma": "Stuffed Leaves",
+            "Kuru Fasülye": "Beans",
+            "Pilav": "Rice",
+            "Haşlama": "Boiled Meat",
+            "Gölbaşı Spesiyal": "Golbasi Special",
+            "Bugünün Yemeği": "Dish of the Day",
+            // Lamb
+            "Kuzu Porsiyon ": "Lamb Portion",
+            "Adana Kebap": "Adana Kebab",
+            "Kuzu Pirzola": "Lamb Chops",
+            "Kuzu Lokum": "Lamb Delight",
+            "Kuzu Şiş": "Lamb Skewer",
+            // Seafood
+            "Kırmızı Benekli Alabalık": "Red Spotted Trout",
+            // Chicken
+            "Tavuk Kanat": "Chicken Wings",
+            "Tavuk Izgara": "Grilled Chicken",
+            "Tavuk Şiş": "Chicken Skewer",
+            // Desserts
+            "Baklava": "Baklava",
+            "Sütlaç": "Rice Pudding",
+            "Kadayıf": "Kadayif",
+            "Magnolia": "Magnolia Pudding",
+            "Soğuk Baklava": "Cold Baklava",
+            // Appetizers
+            "Yoğurt": "Yogurt",
+            "Roka": "Arugula",
+            "Cacık": "Tzatziki",
+            "Peynir": "Cheese",
+            "Karpuz": "Watermelon",
+            "Ezme": "Spicy Paste",
+            "Soğan": "Onion",
+            "Balık Mezesi": "Fish Appetizer",
+            "Köz Biber": "Roasted Pepper",
+            "Kavun": "Melon",
+            "Domates Söğüş": "Sliced Tomatoes",
+            "Salata Söğüş": "Sliced Salad",
+            "Biber Turşusu": "Pickled Peppers",
+            "Turşu": "Pickles",
+            "Mısır Ekmeği": "Corn Bread",
+            // Other
+            "Servis & Kamelya Ücreti": "Service & Camellia Fee",
+            "Organizasyon": "Organization",
+            // Ramadan
+            "Ramazan menü": "Ramadan Menu"
         }
     },
     ar: {
-        title: "غولباشي",
+        title: "مطعم غولباشي",
         subtitle: "عنوان المذاق",
         searchPlaceholder: "بحث عن المنتجات...",
         allCategories: "الكل",
         priceUnit: "ليرة",
+        footerText: "© 2024 مطعم غولباشي | تصميم: دوغوكان شيمشيك",
         categories: {
             "Kahvaltılıklar": "إفطار",
             "Çorbalar": "شوربات",
@@ -63,6 +175,108 @@ const translations = {
             "Mezeler": "مقبلات",
             "Diğer": "أخرى",
             "Ramazan": "قائمة رمضان"
+        },
+        products: {
+            // Units
+            "Tam": "وجبة",
+            "Yarım": "نصف",
+            "Kg": "كغ",
+            // Breakfast
+            "Omlet": "أومليت",
+            "Menemen": "مينمين (بيض بالطماطم)",
+            "Kahvaltı Tabağı": "طبق إفطار",
+            "Sucuklu Omlet": "أومليت بالسجق",
+            "Mıhlama": "مهلاما (جبن ذائب)",
+            "Patates Cips": "بطاطس مقلية",
+            "Sigara Böreği": "فطائر سيجارة",
+            "Büyük Demlik Çay": "إبريق شاي كبير",
+            "Serpme Kahvaltı": "إفطار مشكل",
+            "Tost": "توست",
+            // Soups
+            "Mercimek": "شوربة عدس",
+            "Ezogelin": "شوربة إيزوجيلين",
+            "Haşlama Suyu": "مرق",
+            "Kelle Paça": "شوربة كوارع",
+            "Mercimek Az": "شوربة عدس (صغير)",
+            "Ezogelin Az": "شوربة إيزوجيلين (صغير)",
+            "Şehriye": "شوربة شعيرية",
+            // Beef
+            "Dana Antrikot": "شريحة لحم بقر",
+            "Köfte Porsiyon": "وجبة كفتة",
+            "Dana Sucuk Porsiyon": "وجبة سجق بقر",
+            "Dana Porsiyon": "وجبة لحم بقر",
+            "Ciğer": "كبدة",
+            "Dana Şiş": "شيش لحم بقر",
+            "Ekmek Arası Köfte": "ساندويتش كفتة",
+            "Dana Bonfile": "فيليه لحم بقر",
+            "Dana Sucuk": "سجق بقر",
+            "Köfte": "كفتة",
+            "Sac Tava": "قلاية لحم",
+            "Karışık Izgara": "مشاوي مشكلة",
+            // Salads
+            "Çoban Salata": "سلطة الراعي",
+            // Drinks
+            "Türk Kahvesi": "قهوة تركية",
+            "Su": "ماء",
+            "Nescafe": "نسكافيه",
+            "Çay": "شاي",
+            "Gazlı İçecekler": "مشروبات غازية",
+            "Fincan Çay": "كوب شاي",
+            "Churchil": "تشرشل",
+            "Ayran": "عيران",
+            "Soda": "مياه معدنية",
+            // Stews
+            "Fasülyeli Pilav": "أرز بالفاصوليا",
+            "Kuru Fasülye Az": "فاصوليا (صغير)",
+            "Pilav Az": "أرز (صغير)",
+            "Makarna": "معكرونة",
+            "Kavurma": "قاورما",
+            "Kavurma Az": "قاورما (صغير)",
+            "sarma": "محشي ورق عنب",
+            "Kuru Fasülye": "فاصوليا",
+            "Pilav": "أرز",
+            "Haşlama": "لحم مسلوق",
+            "Gölbaşı Spesiyal": "غولباشي سبيسيال",
+            "Bugünün Yemeği": "طبق اليوم",
+            // Lamb
+            "Kuzu Porsiyon ": "وجبة لحم ضأن",
+            "Adana Kebap": "كباب أضنة",
+            "Kuzu Pirzola": "ريش ضأن",
+            "Kuzu Lokum": "لحم ضأن طري",
+            "Kuzu Şiş": "شيش ضأن",
+            // Seafood
+            "Kırmızı Benekli Alabalık": "سمك السلمون المرقط",
+            // Chicken
+            "Tavuk Kanat": "أجنحة دجاج",
+            "Tavuk Izgara": "دجاج مشوي",
+            "Tavuk Şiş": "شيش طاووق",
+            // Desserts
+            "Baklava": "بقلاوة",
+            "Sütlaç": "أرز بالحليب",
+            "Kadayıf": "قطايف",
+            "Magnolia": "بودينغ ماغنوليا",
+            "Soğuk Baklava": "بقلاوة باردة",
+            // Appetizers
+            "Yoğurt": "زبادي",
+            "Roka": "جرجير",
+            "Cacık": "سلطة خيار باللبن",
+            "Peynir": "جبن",
+            "Karpuz": "بطيخ",
+            "Ezme": "سلطة حارة",
+            "Soğan": "بصل",
+            "Balık Mezesi": "مقبلات سمك",
+            "Köz Biber": "فلفل مشوي",
+            "Kavun": "شمام",
+            "Domates Söğüş": "طماطم مقطعة",
+            "Salata Söğüş": "سلطة مقطعة",
+            "Biber Turşusu": "مخلل فلفل",
+            "Turşu": "مخلل",
+            "Mısır Ekmeği": "خبز ذرة",
+            // Other
+            "Servis & Kamelya Ücreti": "رسوم الخدمة والكاميليا",
+            "Organizasyon": "تنظيم",
+            // Ramadan
+            "Ramazan menü": "قائمة رمضان"
         }
     }
 };

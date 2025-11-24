@@ -50,6 +50,7 @@ function updateLanguage(lang) {
     document.getElementById('site-title').textContent = t.title;
     document.getElementById('site-subtitle').textContent = t.subtitle;
     document.getElementById('search-input').placeholder = t.searchPlaceholder;
+    document.getElementById('footer-text').textContent = t.footerText;
 
     // Update RTL/LTR
     if (lang === 'ar') {
@@ -99,22 +100,28 @@ function renderMenu(searchTerm = '') {
         // Filter by category
         if (activeCategory !== 'all' && cat.categoryName !== activeCategory) return;
 
-        // Filter items by search term
-        const filteredItems = cat.items.filter(item =>
-            item.name.toLowerCase().includes(term)
-        );
+        // Filter items by search term (search in original name or translated name)
+        const filteredItems = cat.items.filter(item => {
+            const originalName = item.name.toLowerCase();
+            const translatedName = (t.products && t.products[item.name] ? t.products[item.name] : item.name).toLowerCase();
+            return originalName.includes(term) || translatedName.includes(term);
+        });
 
         if (filteredItems.length > 0) {
             filteredItems.forEach(item => {
+                // Get translated product name and unit
+                const displayName = t.products && t.products[item.name] ? t.products[item.name] : item.name;
+                const displayUnit = t.products && t.products[item.unit] ? t.products[item.unit] : item.unit;
+
                 html += `
                     <div class="menu-card">
                         <div class="item-info">
-                            <h3>${item.name}</h3>
+                            <h3>${displayName}</h3>
                             <span class="item-desc">${t.categories[cat.categoryName] || cat.categoryName}</span>
                         </div>
                         <div class="item-price">
                             ${item.price} <span style="font-size:0.6em">${t.priceUnit}</span>
-                            <span class="item-unit">${item.unit}</span>
+                            <span class="item-unit">${displayUnit}</span>
                         </div>
                     </div>
                 `;
